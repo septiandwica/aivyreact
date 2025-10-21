@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: system-ui, Arial, Helvetica;
+}
+button {
+  cursor: pointer;
+}
+textarea,
+select,
+input,
+button {
+  font-size: 16px;
+}
