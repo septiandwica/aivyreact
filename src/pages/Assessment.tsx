@@ -17,6 +17,7 @@ export default function Assessment() {
   const [questions, setQuestions] = useState<any[]>([]);
   const [answers, setAnswers] = useState<Record<string, string>>({});
   const [results, setResults] = useState<any>(null);
+  /* eslint-disable @typescript-eslint/no-unused-vars */
   const [behavior, setBehavior] = useState<any>(null);
   const [voiceEval, setVoiceEval] = useState<any>(null);
   const [loading, setLoading] = useState(false);
